@@ -1,0 +1,31 @@
+.carousel-status{
+    display: none;
+}
+.control-next{
+    z-index: 20;
+}
+.control-prev{
+    z-index: 20;
+}
+.card-shadow{
+    box-shadow: rgb(176, 0, 0) 0px 2px 4px 0px, rgb(255, 0, 0) 0px 2px 16px 10px;
+}
+
+.gradinet{
+    background: linear-gradient(45deg, rgb(255, 137, 2) 50%, 50%,  blue 100%);
+}
+.reyting{
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 28px;
+    width: 60px;
+    height: 60px;
+    background: #ffffff;
+    border: solid 3px red;
+    border-radius: 50%;
+}
